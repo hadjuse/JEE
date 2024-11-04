@@ -1,5 +1,3 @@
----
-
 # TP02 - Servlets J2EE
 
 Projet réalisé pour le TP02 du cours de J2EE (ING2, GSI) 2024-2025. Ce TP consiste en la création de plusieurs servlets pour afficher des messages, effectuer des redirections, et gérer un système de login simple sans utiliser de JSP.
@@ -8,7 +6,7 @@ Projet réalisé pour le TP02 du cours de J2EE (ING2, GSI) 2024-2025. Ce TP cons
 
 Ce projet contient trois exercices, chacun sous la forme de servlets distinctes.
 
-### Exigences Techniques
+## Exigences Techniques
 - Environnement J2EE (Java Servlet API)
 - Serveur d'application compatible (ex : Apache Tomcat)
 - Aucune utilisation de JSP (JavaServer Pages) conformément aux consignes
@@ -68,5 +66,3 @@ La servlet `LoginServlet` vérifie les identifiants d'un utilisateur via un form
 ## Auteurs
 
 Ce projet a été réalisé dans le cadre du TP J2EE (ING2, GSI) 2024-2025.
-
----
