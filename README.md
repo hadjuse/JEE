@@ -1,7 +1,7 @@
 # TP02 - Servlets J2EE
 
-Projet réalisé pour le TP02 du cours de J2EE (ING2, GSI) 2024-2025. Ce TP consiste en la création de plusieurs servlets pour afficher des messages, effectuer des redirections, et gérer un système de login simple sans utiliser de JSP.
-
+TP réalisé pour le TP02 du cours de J2EE (ING2, GSI) 2024-2025. Ce TP consiste en la création de plusieurs servlets pour afficher des messages, effectuer des redirections, et gérer un système de login simple sans utiliser de JSP.
+Les noms: Hadj Rabearimanana, Sekou Bah et Clément Praud
 ## Structure du Projet
 
 Ce projet contient trois exercices, chacun sous la forme de servlets distinctes.
@@ -17,7 +17,7 @@ Ce projet contient trois exercices, chacun sous la forme de servlets distinctes.
 
 La servlet `HelloServlet` affiche un message de bienvenue et l'heure système actuelle.
 
-- **Accès** : `/HelloWorld`
+- **Accès** : `/hello`
 - **Fonctionnalité** : Affiche le message `"Hello world, this is my first servlet"` ainsi que l'heure courante.
 - **HTML associé** : `index.html` permet de créer un lien pour accéder à cette servlet.
 
@@ -47,11 +47,11 @@ La servlet `LoginServlet` vérifie les identifiants d'un utilisateur via un form
 
 1. **Clonez le projet** ou ajoutez les fichiers de code Java dans votre environnement de développement compatible avec J2EE.
 2. **Compilez et déployez** le projet sur un serveur d'application compatible (ex : Tomcat).
-3. **Accédez aux servlets** en suivant les chemins définis ci-dessus (par exemple, `/HelloServlet`, `/RedirectServlet`, et `/LoginServlet`).
+3. **Accédez aux servlets** en suivant les chemins définis ci-dessus (par exemple, `/hello`, `/RedirectServlet`, et `/LoginServlet`).
 
 ## Usage
 
-1. **HelloServlet** : Accédez à `/HelloServlet` pour voir un message de bienvenue et l'heure système.
+1. **HelloServlet** : Accédez à `/hello` pour voir un message de bienvenue et l'heure système.
 2. **RedirectServlet** : Utilisez les paramètres `action=PageRedirect` et `page` pour rediriger vers l'URL souhaitée.
 3. **LoginServlet** :
    - Accédez à `login.html` pour ouvrir le formulaire de login.
